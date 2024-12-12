@@ -1,168 +1,168 @@
-/* Header Menu */
-
-.header{
-    position: absolute;
-width: 390px;
-height: 86px;
-left: 0px;
-top: 0px;
-
-filter: drop-shadow(0px 4px 4px rgba(1, 129, 118, 0.35));
-
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+body{
+    font-family: 'Sahel', sans-serif;
 }
 
-/* Rectangle 27 */
+.section::-webkit-scrollbar-thumb {
+background-image: linear-gradient(180deg, #d0368a 0%, #708ad4 99%);
+box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+border-radius: 100px;
+}
 
-position: absolute;
-width: 390px;
-height: 86px;
-left: 0px;
-top: 0px;
-
-background: #018176;
-
-
-.header-subdiv{
-position: absolute;
-width: 361px;
-height: 65px;
-left: 29px;
-top: 31px;
+.bold-16{
+    font-weight: bold;
+    font-size: 16px;
+}
+.custom-navbar {
+    background-color: #00897b; /* سبز مشابه تصویر */
+    color: white;
+    height: 60px; /* ارتفاع نوار */
+}
+.custom-navbar .navbar-brand {
+    color: white;
+    font-size: 1.2rem;
+}
+.custom-navbar .navbar-toggler {
+    border: none;
+}
+.custom-navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%2888, 88, 88, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.custom-navbar .search-icon {
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.scrollable-menu {
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+    direction: rtl; /* تغییر جهت اسکرول */
+}
+.scrollable-menu .menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 92px;
+    margin: 0 10px;
+    padding: 20px;
+    border: 1px solid #00897b;
+    border-radius: 8px;
+    background-color: #e0f2f1;
+    color: #00897b;
+    font-weight: bold;
+    font-size: 10px;
+    color: #191919
+}
+.scrollable-menu .menu-item i {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 10px;
+}
+.book-section {
+    direction: rtl;
+    padding: 20px;
+    
+}
+.book-section h2 {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.book-section h2 i {
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+.book-carousel {
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+.book-carousel .book-item {
+    display: inline-block;
+    width: 200px; /* افزایش عرض کارت */
+    margin: 0 10px;
+    text-align: center;
+    border: 1px solid #00897b;
+    background-color: #e0f2f1;
+    border-radius: 8px;
+    padding: 8px;
+}
+.book-carousel .book-item img {
+    width: 100%;
+    border: 1px solid #00897b;
+    border-radius: 8px;
+    
+}
+.book-carousel .book-item .title {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.book-carousel .book-item .author {
+    font-size: 0.8rem;
+    color: gray;
 }
 
 
-/* 201 1 */
-
-position: absolute;
-width: 106px;
-height: 65px;
-left: 255px;
-top: -2px;
-
-background: url(201);
-
-
-/* Frame 37 */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: flex-end;
-padding: 0px;
-gap: 157px;
-
-position: absolute;
-width: 329px;
-height: 28px;
-left: 0px;
-top: 16px;
-
-
-
-/* Frame 36 */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-
-width: 72px;
-height: 24px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* MagnifyingGlass */
-
-width: 24px;
-height: 24px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* Vector */
-
-position: absolute;
-left: 9.29%;
-right: 9.37%;
-top: 9.29%;
-bottom: 9.37%;
-
-background: #FFFFFF;
-
-
-/* LineVertical */
-
-width: 24px;
-height: 24px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-
-
-/* Vector */
-
-position: absolute;
-left: 46.88%;
-right: 46.88%;
-top: 6.25%;
-bottom: 6.25%;
-
-background: #FFFFFF;
-
-
-/* List */
-
-width: 24px;
-height: 24px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 2;
-flex-grow: 0;
-
-
-/* Vector */
-
-position: absolute;
-left: 12.5%;
-right: 12.5%;
-top: 21.88%;
-bottom: 21.88%;
-
-background: #FFFFFF;
-
-
-/* حسینیه تربیت */
-
-width: 101px;
-height: 28px;
-
-font-family: 'Sahel FD';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 28px;
-text-align: right;
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
+.event-section {
+    direction: rtl;
+    padding: 20px;
+    
+}
+.event-section h2 {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.event-section h2 i {
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+.event-carousel {
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+.event-carousel .event-item {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    width: 202px;
+    height: 172px;
+    border: 1px solid #00897b;
+    border-radius: 8px;
+    padding: 8px;
+}
+.event-carousel .event-item img {
+    width: 100%;
+    border: 1px solid #00897b;
+    border-radius: 8px;
+    width: 172px; /* افزایش عرض کارت */
+    height: 86px;
+    
+}
+.event-carousel .event-item .title {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.event-carousel .event-item .author {
+    font-size: 0.8rem;
+    color: gray;
+}
