@@ -1,0 +1,168 @@
+/* Header Menu */
+
+.header{
+    position: absolute;
+width: 390px;
+height: 86px;
+left: 0px;
+top: 0px;
+
+filter: drop-shadow(0px 4px 4px rgba(1, 129, 118, 0.35));
+
+}
+
+/* Rectangle 27 */
+
+position: absolute;
+width: 390px;
+height: 86px;
+left: 0px;
+top: 0px;
+
+background: #018176;
+
+
+.header-subdiv{
+position: absolute;
+width: 361px;
+height: 65px;
+left: 29px;
+top: 31px;
+}
+
+
+/* 201 1 */
+
+position: absolute;
+width: 106px;
+height: 65px;
+left: 255px;
+top: -2px;
+
+background: url(201);
+
+
+/* Frame 37 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+padding: 0px;
+gap: 157px;
+
+position: absolute;
+width: 329px;
+height: 28px;
+left: 0px;
+top: 16px;
+
+
+
+/* Frame 36 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 72px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* MagnifyingGlass */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.29%;
+right: 9.37%;
+top: 9.29%;
+bottom: 9.37%;
+
+background: #FFFFFF;
+
+
+/* LineVertical */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 46.88%;
+right: 46.88%;
+top: 6.25%;
+bottom: 6.25%;
+
+background: #FFFFFF;
+
+
+/* List */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 21.88%;
+bottom: 21.88%;
+
+background: #FFFFFF;
+
+
+/* حسینیه تربیت */
+
+width: 101px;
+height: 28px;
+
+font-family: 'Sahel FD';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+text-align: right;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
