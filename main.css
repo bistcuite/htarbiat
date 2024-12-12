@@ -112,7 +112,6 @@ border-radius: 100px;
 }
 .book-carousel .book-item img {
     width: 100%;
-    border: 1px solid #00897b;
     border-radius: 8px;
     
 }
@@ -175,10 +174,57 @@ border-radius: 100px;
 }
 
 
-.forum-section {
+.course-section {
     direction: rtl;
     padding: 20px;
     
+}
+.course-section h2 {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.course-section h2 i {
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+.course-carousel {
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+.course-carousel .course-item {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    width: 202px;
+    height: 172px;
+    border: 1px solid #00897b;
+    border-radius: 8px;
+    padding: 8px;
+}
+.course-carousel .course-item img {
+    width: 100%;
+    border: 1px solid #00897b;
+    border-radius: 8px;
+    width: 172px; /* افزایش عرض کارت */
+    height: 86px;
+}
+.course-carousel .course-item .title {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.course-carousel .course-item .author {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.forum-section {
+    direction: rtl;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 8px;
 }
 .forum-section h2 {
     font-size: 1.5rem;
