@@ -24,6 +24,10 @@ border-radius: 100px;
     font-weight: bold;
     font-size: 16px;
 }
+.bold-10{
+    font-weight: bold;
+    font-size: 10px;
+}
 .custom-navbar {
     background-color: #00897b; /* سبز مشابه تصویر */
     color: white;
@@ -166,3 +170,57 @@ border-radius: 100px;
     font-size: 0.8rem;
     color: gray;
 }
+
+
+.forum-section {
+    direction: rtl;
+    padding: 20px;
+    
+}
+.forum-section h2 {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.forum-section h2 i {
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+.forum-carousel{
+    padding-top: 16px;
+}
+.forum-item {
+}
+/*
+.forum-carousel {
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+.forum-carousel .forum-item {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    width: 202px;
+    height: 172px;
+    border: 1px solid #00897b;
+    border-radius: 8px;
+    padding: 8px;
+}
+.forum-carousel .forum-item img {
+    width: 100%;
+    border: 1px solid #00897b;
+    border-radius: 8px;
+    width: 172px; 
+    height: 86px;
+    
+}
+.forum-carousel .forum-item .title {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.forum-carousel .forum-item .author {
+    font-size: 0.8rem;
+    color: gray;
+} */
